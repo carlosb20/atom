@@ -1,0 +1,21 @@
+{% extends 'carlos/base.html'%}
+{% load static %}
+{% block content %}
+
+  <link rel="stylesheet" href="{% static 'Css/contado.css'%}">
+  <h1> PAGINA CONTADO</h1>
+
+  <div>
+    <form class="" action="#" method="post">
+      <label for="fname">first name </label>
+      <input type="text" name="firstname" id="fname" placeholder="your last name">
+      <label for="lname"> last name </label>
+      <input type="text" id="lname" name="lastname" placeholder="your last name..">
+
+      <input type="submit" name="" value="Sudmit">
+      {% csrf_token %}
+
+    </form>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+h1{
+
+  text-align: center;
+}
+
+body{
+
+  background-color:orange;
+}
+.exemplo{
+  margin:8px;
+  padding:10px;
+  border:1px solid;
+}

@@ -1,0 +1,76 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:silver;
+}
+
+h1{
+  text-align:center;
+  color: blue;
+}
+
+main{
+  display: flex;
+  flex-direction:column;
+  gap:20px;
+  width:100%;
+
+}
+
+.container{
+  width: 100%;
+  height:50px;
+
+}
+
+main{
+  background-color:#00ffff;
+  width:100%;
+  height:100px;
+  padding:10px 10px;
+
+}
+
+.corrossel{
+  width: 100%;
+  display: flex;
+  position:relative;
+}
+
+.item{
+  width: 100px;
+  height:50px;
+  position:absolute;
+  animation: cam 10s linear infinite;
+  cursor: pointer;
+
+
+}
+
+.item1{
+  animation-delay:1s;
+}
+
+.item2{
+  animation-delay:2s
+}
+
+.tem3{
+  animation-delay:3s
+}
+
+.item img{
+  width: 100%;
+
+}
+
+
+@keyframes cam {
+  from{ left: 100%;}
+  to{left:-50px}
+}
